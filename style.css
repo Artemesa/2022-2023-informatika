@@ -3,7 +3,7 @@
     background: rgb(0, 0, 255);
 }
 table {
-    width:100%;
+    width: 100%;
 }
 table, th, td {
     border: 1px solid black;
@@ -14,9 +14,9 @@ body {
     margin-right: 5px;
     background-color: antiquewhite;
 }
-#bigth {
+/*#bigth {
     width:50%;
-}
+}*/
 p{
     font-family: 'FanwoodTextRegular', serif;
 }
@@ -81,4 +81,16 @@ a:visited.active, a.active {
     background-color: #ffff00;
     color: black;
 }
+img {
+    max-width: 100%;
+}
+@media all and (max-width: 500px) {
+	table{
+		font-size: 5px;
+	}
+}
+nav {
+    background-color: rgb(192, 21, 214);
+}
+
 

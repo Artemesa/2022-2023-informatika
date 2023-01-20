@@ -9,11 +9,24 @@
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fanwood" type="text/css"/>
     </head>
     <body>
-        <ul>
+        <!--ul>
             <li><a class="active" href="index.html">Home page</a></li>
             <li><a href="structures.html">Structures</a></li>
             <li><a href="combat.html">Combat Guide</a></li>
-        </ul>
+        </ul-->
+	<nav>
+		<a href="index.html" class="brand">
+			<img class="logo" src="favicon.ico" />
+			<span>Heroes III Guide</span>
+		</a>
+		<input id="bmenub" type="checkbox" class="show">
+		<label for="bmenub" class="burger pseudo button">menu</label>
+
+		<div class="menu">
+			<a href="combat.html" class="pseudo button">Combat</a>
+			<a href="structures.html" class="pseudo button">Structures</a>
+		</div>
+	</nav>
         <h1>Heroes III: Might & Magic Guide</h1>
         <h2>Best tips and tricks for beginners only here</p>
         <h3>Short summary:</h2>
@@ -21,73 +34,75 @@
         <h3>Before entering a game:</h3>
         <p> You need to choose your main town. Towns in this game are 9 in this expansion and they are presented in the tables below. Read through them and choose your favorite. Try not to minmax the game and enjoy it a little since in the begining you will probably choose the lowest difficulty and have a lot of recourses so the cost is not a problem.</p>
         <!--<button>text</button>-->
-        <table>
-            <tr>
-                <th>Castle</th>
-                <img src="castle.png">
-                <th>Troop icon /normal/</th>
-                <th id="bigth">Normal version</th>
-                <th>Troop icon /upgraded/</th>
-                <th id="bigth">Upgraded version</th>
-                <th>1-10</th>
-            </tr>
-            <tr>
-                <td>tier 1</td>
-                <td></td>
-                <td>Pikeman: </td>
-                <td></td>
-                <td>Halberdier: </td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>tier 2</td>
-                <td></td>
-                <td>Archer: </td>
-                <td></td>
-                <td>Marksman: </td>
-                <td>8.5</td>
-            </tr>
-            <tr>
-                <td>tier 3</td>
-                <td></td>
-                <td>Griffin: </td>
-                <td></td>
-                <td>Royal Griffin: </td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>tier 4</td>
-                <td></td>
-                <td>Swordsman: </td>
-                <td></td>
-                <td>Crusader: </td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>tier 5</td>
-                <td></td>
-                <td>Monk: </td>
-                <td></td>
-                <td>Zealot: </td>
-                <td>7.5</td>
-            </tr>
-            <tr>
-                <td>tier 6</td>
-                <td></td>
-                <td>Cavalier: </td>
-                <td></td>
-                <td>Champion: </td>
-                <td>4.5</td>
-            </tr>
-            <tr>
-                <td>tier 7</td>
-                <td></td>
-                <td>Angel: </td>
-                <td></td>
-                <td>Arcangel: </td>
-                <td>10</td>
-            </tr>
-        </table>
+	<div class="primary">
+		<table>
+		    <tr>
+		        <th>Castle</th>
+		        <img src="castle.png">
+		        <th>Troop icon /normal/</th>
+		        <th id="bigth">Normal version</th>
+		        <th>Troop icon /upgraded/</th>
+		        <th id="bigth">Upgraded version</th>
+		        <th>1-10</th>
+		    </tr>
+		    <tr>
+		        <td>tier 1</td>
+		        <td></td>
+		        <td>Pikeman: </td>
+		        <td></td>
+		        <td>Halberdier: </td>
+		        <td>4</td>
+		    </tr>
+		    <tr>
+		        <td>tier 2</td>
+		        <td></td>
+		        <td>Archer: </td>
+		        <td></td>
+		        <td>Marksman: </td>
+		        <td>8.5</td>
+		    </tr>
+		    <tr>
+		        <td>tier 3</td>
+		        <td></td>
+		        <td>Griffin: </td>
+		        <td></td>
+		        <td>Royal Griffin: </td>
+		        <td>7</td>
+		    </tr>
+		    <tr>
+		        <td>tier 4</td>
+		        <td></td>
+		        <td>Swordsman: </td>
+		        <td></td>
+		        <td>Crusader: </td>
+		        <td>5</td>
+		    </tr>
+		    <tr>
+		        <td>tier 5</td>
+		        <td></td>
+		        <td>Monk: </td>
+		        <td></td>
+		        <td>Zealot: </td>
+		        <td>7.5</td>
+		    </tr>
+		    <tr>
+		        <td>tier 6</td>
+		        <td></td>
+		        <td>Cavalier: </td>
+		        <td></td>
+		        <td>Champion: </td>
+		        <td>4.5</td>
+		    </tr>
+		    <tr>
+		        <td>tier 7</td>
+		        <td></td>
+		        <td>Angel: </td>
+		        <td></td>
+		        <td>Arcangel: </td>
+		        <td>10</td>
+		    </tr>
+		</table>
+	</div>
         <p>Over all: Castle is very well balanced town that does well in every matchup. Very high cost foe everything. My score ~7.5
         <table>
             <tr>
