@@ -92,5 +92,9 @@ img {
 nav {
     background-color: rgb(192, 21, 214);
 }
-
+canvas {
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: rgb(20, 100, 20);
+}
 
