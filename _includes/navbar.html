@@ -1,14 +1,14 @@
 <nav>
-		<a href="index.html" class="brand">
-			<img class="logo" src="favicon.ico" />
-			<span>Heroes III Guide</span>
-		</a>
-		<input id="bmenub" type="checkbox" class="show">
-		<label for="bmenub" class="burger pseudo button">menu</label>
+	<a href="index.html" class="brand">
+		<img class="logo" src="favicon.ico" />
+		<span>Heroes III Guide</span>
+	</a>
+	<input id="bmenub" type="checkbox" class="show">
+	<label for="bmenub" class="burger pseudo button">menu</label>
 
-		<div class="menu">
-			<a href="combat.html" class="pseudo button">Combat</a>
-			<a href="structures.html" class="pseudo button">Structures</a>
-			<a href="game.html" class="pseudo button">Game</a>
-		</div>
-	</nav>
+	<div class="menu">
+		<a href="combat.html" class="{% if page.name != "combat.html" %} pseudo {% endif %} button">Combat</a>
+		<a href="structures.html" class="{% if page.name != "structures.html" %} pseudo {% endif %} button">Structures</a>
+		<a href="game.html" class="{% if page.name != "game.html" %} pseudo {% endif %} button">Game</a>
+	</div>
+</nav>
